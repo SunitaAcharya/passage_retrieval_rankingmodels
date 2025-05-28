@@ -8,6 +8,7 @@ The project focus on passage retrieval from relevant documents with the goal of 
 
 
 Result
+
 In answer to all the research questions mentioned in the literature review, it is observed that in all three datasets, overall figures state that the neural ranking model (ColBERT) with re-ranking retrieval outperforms traditional ranking models. While comparing the traditional model BM25 as a baseline with neural models shows it improves the significant performance of the neural ranking model ColBERT with end-to-end retrieval and re-ranking retrieval in all three datasets. However, comparing the neural model ColBERT as a baseline with traditional models shows different results in all three datasets. It shows that the significance performance is improved in the traditional end-to-end retrieval model on the Vaswani dataset, neural model (ColBERT) as re-ranked retrieval on the Cranfield dataset, and no improved performance at all in Beir-webmasters dataset. Hence, BM25 is the best model to improve the performance of the neural model whereas ColBERT model is not the best model to improve the performance of the traditional model.
 
 
